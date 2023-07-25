@@ -1,0 +1,36 @@
+{
+    "name": "stylelint-config-memo",
+    "version": "0.1.0",
+    "description": "Basic stylelint config for Media Motion AG",
+    "main": "index.js",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/mediamotionag/stylelint-config-memo.git"
+    },
+    "keywords": [
+        "stylelint"
+    ],
+    "author": "Media Motion AG",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/mediamotionag/stylelint-config-memo/issues"
+    },
+    "homepage": "https://github.com/mediamotionag/stylelint-config-memo#readme",
+    "dependencies": {
+        "stylelint-config-standard": "^34.0.0",
+        "stylelint-config-standard-scss": "^10.0.0",
+        "stylelint-order": "^6.0.3",
+        "stylelint-scss": "^5.0.1",
+        "stylelint-stylistic": "^0.4.3"
+    },
+    "devDependencies": {
+        "eslint": "^8.45.0",
+        "eslint-config-memo": "^0.1.0"
+    },
+    "peerDependencies": {
+        "stylelint": ">= 15"
+    },
+    "eslintConfig": {
+        "extends": "eslint-config-memo"
+    }
+}
